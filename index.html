@@ -4,6 +4,9 @@
     <title>Test Page: Don't Panic</title>
     <meta charset="utf-8">
     <style>
+      body {
+	  background-color:green;
+      }
       a {
 	  color: red;
       }
@@ -16,13 +19,19 @@
       .bio-box a {
 	  color: green;
       }
+      #orange-bk {
+	  background-color:orange;
+      }
+      .azure-bk {
+	  background-color:azure;
+      }
     </style>
   </head>
   <body>
     <h1>I'm an h1</h1>
     <ul>
       <li>
-        <a href="http://example.com/">Link</a>
+        <a id="orange-bk" href="http://example.com/">Link</a>
       </li>
       <li>
         <a href="http://example.com/">Link</a>
@@ -32,16 +41,16 @@
       </li>
     </ul>
     <h2>I'm an h2</h2>
-    <div id="exec-bio" class="bio-box">
+    <div id="exec-bio" class="bio-box azure-bk">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box">
+    <div class="bio-box azure-bk">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box">
+    <div class="bio-box azure-bk">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box">
+    <div class="bio-box azure-bk">
       <a href="http://example.com/">I'm a link</a>
     </div>
   </body>
